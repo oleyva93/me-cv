@@ -128,7 +128,7 @@ export const RESUME_DATA = {
     },
     {
       title: "react-terminal-history",
-      techStack: ["Side Project", "TypeScript", "React/Vite", "Vite"],
+      techStack: ["Personal Project", "TypeScript", "React/Vite", "Vite"],
       description: "React component for read logs in a terminal",
       logo: ConsultlyLogo,
       link: {
