@@ -1,107 +1,94 @@
-import ConsultlyLogo from "../images/logos/consultly.svg";
-import AmbitLogo from "../images/logos/ambit.png";
+import { GitHubIcon } from "../components/icons/GitHubIcon";
+import { LinkedInIcon } from "../components/icons/LinkedInIcon";
+import { XIcon } from "../components/icons/XIcon";
+import AvatarProfile from "../images/logos/Avatar.png";
 import BarepapersLogo from "../images/logos/barepapers.svg";
-import BimLogo from "../images/logos/bim.png";
-import CDGOLogo from "../images/logos/cdgo.png";
 import ClevertechLogo from "../images/logos/clevertech.png";
+import ConsultlyLogo from "../images/logos/consultly.svg";
 import EvercastLogo from "../images/logos/evercast.svg";
 import Howdy from "../images/logos/howdy.png";
 import JarockiMeLogo from "../images/logos/jarocki.svg";
 import JojoMobileLogo from "../images/logos/jojomobile.png";
+import Minimal from "../images/logos/minimal.svg";
 import MonitoLogo from "../images/logos/monito.svg";
 import MobileVikingsLogo from "../images/logos/mv.png";
-import NSNLogo from "../images/logos/nsn.svg";
 import ParabolLogo from "../images/logos/parabol.svg";
 import TastyCloudLogo from "../images/logos/tastycloud.png";
 import YearProgressLogo from "../images/logos/yearprogress.svg";
-import Minimal from "../images/logos/minimal.svg";
-import { GitHubIcon } from "../components/icons/GitHubIcon";
-import { LinkedInIcon } from "../components/icons/LinkedInIcon";
-import { XIcon } from "../components/icons/XIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Oscar Leyva",
+  initials: "OL",
+  location: "Mérida, Yucatán, México",
+  locationLink: "https://www.google.com/maps/place/M%C3%A9rida,+Yuc",
   about:
-    "Full Stack Engineer focused on building products with extra attention to details",
+    "Experienced Full Stack Engineer specializing in the development of robust products, characterized by a keen emphasis on precision and detail.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As an experienced Full Stack Engineer, I've played a pivotal role in bringing various projects to life, subtly influencing teams for efficient collaboration. My technical focus encompasses React, TypeScript, Node.js, and Next.js. Over 5 years of remote work have honed my skills, allowing me to contribute effectively to global projects and establish a track record of successful outcomes.",
+  avatarUrl: AvatarProfile.src,
+  personalWebsiteUrl: "https://ols-portfolio.vercel.app/",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "oleyva930424@gmail.com",
+    tel: "+52 9381857447",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/oleyva93",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/oleyva93/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/ozki_dev",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Universidad Tecnológica de la Habana - CUJAE",
+      degree: "Bachelor's Degree in Systems Engineering",
+      start: "2014",
+      end: "2019",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Lighthouse Technologies",
+      link: "https://lighthousetech.odoo.com/",
       badges: ["Remote"],
       title: "Senior Full Stack Developer",
       logo: ParabolLogo,
       start: "2021",
-      end: "2024",
+      end: "Present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Engaged in the development of various projects with a focus on surveillance camera processes, actively contributing to their advancement. Provide essential support for the maintenance and repair of transportation equipment, leveraging diverse technologies. Currently enhancing skills in full-stack development, particularly emphasizing AWS Amplify.",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "Rezglo",
+      link: "https://www.rezglob2b.com/",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      title: "Lead Front-End Developer",
       logo: ClevertechLogo,
-      start: "2015",
+      start: "2019",
       end: "2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Led front-end development for a transportation management software company, akin to Uber, and played a key role in the substantial contributions to a SaaS application's development.",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
+      company: "Cujae University",
+      link: "https://cujae.edu.cu/",
+      badges: [""],
+      title: "Full Stack Developer",
       logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      start: "2018",
+      end: "2021",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        "Played a key role in developing the university's intranet system and actively contributed to digitizing internal and external projects, showcasing a dedicated commitment to enhancing the institute's technological capabilities.",
     },
   ],
   skills: [
@@ -109,170 +96,178 @@ export const RESUME_DATA = {
     "TypeScript",
     "React/Next.js/Remix",
     "Node.js",
+    "Nest.js",
     "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Amplify",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Astech",
+      techStack: ["Side Project", "TypeScript", "React", "Vite", "Java/Spring"],
+      description: "A platform to manage repair vehicles",
+      logo: ConsultlyLogo,
+      link: {
+        label: "astech.com/es/",
+        href: "https://astech.com/",
+      },
+    },
+    {
+      title: "Bongo",
       techStack: [
+        "Lead Frontend Developer",
         "Side Project",
         "TypeScript",
         "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
+      description: "A site for monitoring house sales in USA.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "agent.gobongo.co/",
+        href: "https://agent.gobongo.co/",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "react-terminal-history",
+      techStack: ["Side Project", "TypeScript", "React/Vite", "Vite"],
+      description: "React component for read logs in a terminal",
+      logo: ConsultlyLogo,
+      link: {
+        label: "github.com/oleyva93/react-terminal-history",
+        href: "https://react-terminal-history-ac7k.vercel.app/",
+      },
+    },
+    {
+      title: "onePhysio",
+      techStack: ["Lead Frontend Developer", "Side Project", "React", "Vite"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "A platform to manage physiotherapy sessions and appointments",
       logo: JarockiMeLogo,
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "onephysio.it",
+        href: "https://onephysio.it",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
+      title: "Healthspan",
       techStack: [
         "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
+        "Side Project",
+        "Next.js",
         "Node.js",
+        "Directus",
+      ],
+      description:
+        "A site to manage medical services provided by licensed physicians and clinicians practicing within independently owned and operated professional practices named Healthspan Medical NJ.",
+      logo: Minimal,
+      link: {
+        label: "app.dev.hslongevity.com/",
+        href: "https://app.dev.hslongevity.com/",
+      },
+    },
+    {
+      title: "Fusus",
+      techStack: [
+        "Side Project",
+        "Next.js",
+        "React/Vite",
+        "Node.js",
+        "Express",
+      ],
+      description:
+        "A Real-Time Intelligence Ecosystem to public safety and security",
+      logo: BarepapersLogo,
+      link: {
+        label: "fusus.com",
+        href: "https://www.fusus.com/",
+      },
+    },
+    {
+      title: "Fusus Support",
+      techStack: [
+        "Lead Frontend Developer",
+        "Side Project",
+        "Private Site",
+        "React/Vite",
+        "Amplify",
+        "Node.js",
+        "Express",
+      ],
+      description: "A site to manage support tickets for Fusus",
+      logo: YearProgressLogo,
+      link: {
+        label: "fusussupport.com",
+        href: "https://www.fusussupport.com/login/",
+      },
+    },
+    {
+      title: "Assembly Fusus",
+      techStack: [
+        "Lead Frontend Developer",
+        "Internal Site",
+        "TypeScript",
+        "Next.js",
+        "Node.js",
+      ],
+      description: "A site to manage camera devices and their configurations.",
+      logo: ParabolLogo,
+      link: {
+        label: "assembly-fusus",
+        href: undefined,
+      },
+    },
+    {
+      title: "Fusus-Camera",
+      techStack: [
+        "Lead Frontend Developer",
+        "Internal Site",
+        "TypeScript",
+        "React/Vite",
+      ],
+      description:
+        "A site for managing internal fusus camera logs and their configurations..",
+      logo: EvercastLogo,
+      link: {
+        label: "fusus-camera",
+        href: undefined,
+      },
+    },
+    {
+      title: "Rezglo",
+      techStack: [
+        "Lead Frontend Developer",
+        "React",
+        "Kohana",
+        "PHP",
         "GraphQL",
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
+        "A site to Manage transportation services for companies and their employees.",
       logo: MobileVikingsLogo,
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "rezglob2b.com",
+        href: "https://rezglob2b.com/",
       },
     },
     {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Rezglo Driver",
+      techStack: ["Lead Frontend Developer", "React/Vite", "GraphQL"],
       description:
-        "Howdy is a place for you to join communities you care about",
+        "Web application for managing driver transportation services for companies",
       logo: Howdy,
       link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
+        label: "driver.app",
+        href: "https://drivertracking.rezglo.com/login/",
       },
     },
     {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
+      title: "Rezglo Onboarding",
+      techStack: ["Lead Frontend Developer", "React", "GraphQL"],
+      description: "Onboardingfor managing company transportation services",
       logo: TastyCloudLogo,
       link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
+        label: "onboarding.rezglo",
+        href: "https://rezglob2b.com/onboarding?step=1",
       },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
