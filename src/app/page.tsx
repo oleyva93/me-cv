@@ -8,26 +8,10 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { RESUME_DATA } from "../data/resume-data";
 import { ProjectCard } from "../components/project-card";
-import AvatarProfile from "../images/logos/Avatar.png";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
   description: RESUME_DATA.summary,
-  openGraph: {
-    title: "About Oscar",
-    description: RESUME_DATA.summary,
-    type: "website",
-    locale: "en_IE",
-    url: "https://me-cv.vercel.app/",
-    images: [
-      {
-        url: AvatarProfile.src,
-        width: 800,
-        height: 600,
-        alt: "Oscar Leyva",
-      },
-    ],
-  },
 };
 
 export default function Page() {

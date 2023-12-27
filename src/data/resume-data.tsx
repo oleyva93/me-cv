@@ -1,7 +1,7 @@
 import { GitHubIcon } from "../components/icons/GitHubIcon";
 import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
-import AvatarProfile from "../images/logos/Avatar.png";
+import AvatarProfile from "../images/logos/avatar.png";
 import BarepapersLogo from "../images/logos/barepapers.svg";
 import ClevertechLogo from "../images/logos/clevertech.png";
 import ConsultlyLogo from "../images/logos/consultly.svg";
